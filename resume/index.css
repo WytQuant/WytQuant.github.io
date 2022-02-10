@@ -1,0 +1,26 @@
+.blockchain-bg {
+  background: linear-gradient(
+      90deg,
+      rgba(136, 136, 136, 0.3) 0,
+      rgba(116, 116, 116, 0.3) 95%
+    ),
+    url(./img/shubham-dhage-T9rKvI3N0NM-unsplash.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.text-color {
+  color: white;
+}
+
+.my-picture {
+  border-radius: 50%;
+}
+
+#contact > .con-photo {
+  width: 1%;
+}
+
+.fab {
+  font-size: 30px;
+}
