@@ -37,18 +37,32 @@ nav.desktop {
   align-items: center;
   text-decoration: none;
   color: black;
+  transition: font-size 1.618s ease-in-out;
 }
 
 .nav-item {
-  margin: 0 24px 0 0;
+  margin: 0 1.5rem 0 0;
   display: flex;
 }
 
 .nav-link {
-  margin: 0 16px 0 0;
   text-decoration: none;
   color: black;
+  padding: 1.4rem 1.5rem 1.4rem 1.5rem;
 }
+
+/* hover section */
+
+.nav-link:hover {
+  background-color: gray;
+  color: white;
+}
+
+.link-logo:hover {
+  font-size: 1.5rem;
+}
+
+/* navbar-moblie */
 
 .nav-item-moblie {
   display: none;
@@ -98,10 +112,18 @@ section#start {
   color: black;
   background: grey;
   border-radius: 0.3rem;
+  color: white;
+  transition: background-color, font-size 1.236s ease-in-out;
 }
 
 .start-text h1 {
   font-size: 3rem;
+}
+
+/* hover section  */
+.start-button:hover {
+  background-color: #42b72a;
+  font-size: 2rem;
 }
 
 /* <!-- start but moblie section --> */
@@ -156,6 +178,7 @@ section#start-moblie {
   display: flex;
   justify-content: flex-start;
   align-items: center;
+  transition: background-color 0.786s ease-in-out;
 }
 
 .sub-cont1 {
@@ -193,6 +216,11 @@ section#start-moblie {
 .sub-text a {
   text-decoration: none;
   color: rgb(56, 56, 252);
+}
+
+/* hover-section */
+.info-sub-cont:hover {
+  background-color: lightgrey;
 }
 
 /* info-moblie */
@@ -284,6 +312,7 @@ section#course-moblie {
   display: flex;
   justify-content: flex-start;
   align-items: center;
+  transition: background-color 0.786s ease-in-out;
 }
 
 .ex-sub-img {
@@ -303,6 +332,11 @@ section#course-moblie {
   width: 100%;
   height: auto;
   padding: 1rem 1rem;
+}
+
+/* hover-section */
+.subcont:hover {
+  background-color: lightgrey;
 }
 
 /* exibit-moblie */
