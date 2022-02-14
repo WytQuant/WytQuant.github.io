@@ -113,7 +113,7 @@ section#start {
   background: grey;
   border-radius: 0.3rem;
   color: white;
-  transition: background-color, font-size 1.236s ease-in-out;
+  transition: font-size 1.236s ease-in-out;
 }
 
 .start-text h1 {
