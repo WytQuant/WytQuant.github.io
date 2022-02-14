@@ -377,14 +377,19 @@ footer {
     display: none;
   }
   .nav-item-moblie {
-    display: block;
     width: 100%;
     height: auto;
     display: flex;
     height: 64px;
     align-items: center;
     justify-content: space-around;
-    font-size: 2rem;
+    background-color: white;
+    position: sticky;
+    top: 0;
+  }
+
+  .nav-item-moblie .nav-link {
+    padding: 1rem 1.5rem;
   }
 
   /* start */
