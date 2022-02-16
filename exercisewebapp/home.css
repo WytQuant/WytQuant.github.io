@@ -346,3 +346,82 @@ body {
 iframe.map {
   border-radius: 1rem;
 }
+
+/* responsive for moblie  */
+
+@media only screen and (max-width: 576px) {
+  /* navbar - moblie */
+  .user-img,
+  .user-profile {
+    display: none;
+  }
+
+  .navbar-main {
+    justify-content: center;
+  }
+
+  .link-item {
+    width: 100%;
+    justify-content: space-around;
+  }
+
+  .nav-link {
+    font-size: 1.25rem;
+  }
+
+  /* main section - moblie */
+  .act-upper-section {
+    display: block;
+    padding: 2rem 1rem;
+  }
+
+  .act-program {
+    width: 100%;
+  }
+
+  .program-todolist {
+    margin: 0 0 1rem 0;
+  }
+
+  .act-program-main {
+    width: 100%;
+  }
+
+  .healthy-b {
+    display: block;
+  }
+
+  .healthy-title {
+    width: 100%;
+  }
+
+  .healthy-cont {
+    width: 100%;
+  }
+
+  .act-card {
+    width: 200px;
+  }
+
+  .act-card img {
+    width: 200px;
+  }
+
+  .act-title h2 {
+    text-align: center;
+  }
+
+  .add-button {
+    position: static;
+    text-align: center;
+  }
+
+  /* activity lower section  */
+  .act-lower-section {
+    padding: 1rem;
+  }
+
+  .workout-title {
+    width: 100%;
+  }
+}

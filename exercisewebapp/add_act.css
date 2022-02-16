@@ -237,3 +237,66 @@ select.input-first {
   transform: rotate(5deg);
   margin-right: 2rem;
 }
+
+/* responsive moblie */
+
+@media only screen and (max-width: 576px) {
+  /* navbar - moblie */
+  .user-img,
+  .user-profile {
+    display: none;
+  }
+
+  .navbar-main {
+    justify-content: center;
+  }
+
+  .link-item {
+    width: 100%;
+    justify-content: space-around;
+  }
+
+  .nav-link {
+    font-size: 1.25rem;
+  }
+
+  /* main section  */
+  .add-act-data {
+    padding: 2rem 1rem;
+  }
+
+  .add-act-section {
+    display: block;
+  }
+
+  .input-data-main {
+    width: 100%;
+    height: auto;
+    margin: 0 0 1rem 0;
+  }
+
+  input,
+  textarea,
+  label,
+  option {
+    font-size: 1.25rem;
+  }
+
+  /* activity information */
+
+  .act-info {
+    width: 100%;
+  }
+
+  .act-header {
+    width: 100%;
+  }
+
+  .act-card {
+    width: 200px;
+  }
+
+  .act-card img {
+    width: 200px;
+  }
+}
