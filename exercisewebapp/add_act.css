@@ -291,12 +291,4 @@ select.input-first {
   .act-header {
     width: 100%;
   }
-
-  .act-card {
-    width: 200px;
-  }
-
-  .act-card img {
-    width: 200px;
-  }
 }
