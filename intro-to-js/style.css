@@ -1,0 +1,34 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.bg {
+  height: 100vh;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.container {
+  width: 100%;
+}
+h1 {
+  width: 50%;
+  margin: 0 auto 2rem auto;
+  padding: 1rem;
+  /* background: red; */
+  border-radius: 1rem;
+}
+button {
+  margin: 0 1rem;
+  padding: 1rem;
+  font-size: 1.25rem;
+  border: 3px outset grey;
+  border-radius: 1rem;
+  cursor: pointer;
+}
+button:hover {
+  border: 3px inset grey;
+}
