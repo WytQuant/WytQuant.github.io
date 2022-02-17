@@ -10,5 +10,5 @@ function askMyName() {
  
  function helloWorld() {
  const h1message = document.getElementById('myname').innerHTML;
-    alert(h1message + ' : อยากเรียนอินทิเกรต จะได้หาพิ้นที่ว่างในหัวใจเธอ')
+    alert(h1message + ' : ไม่ต้องเขียนคิ้วให้คม พี่มองนมไม่ได้มองหน้า')
  }
