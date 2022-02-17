@@ -21,7 +21,7 @@ body {
     url(./img/risen-wang-20jX9b35r_M-unsplash.jpg);
   background-size: cover;
   padding: 4rem 2rem;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 .form-logo {
