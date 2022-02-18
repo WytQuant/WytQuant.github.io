@@ -21,7 +21,7 @@ function askMyName() {
       let thisYear = 2022;
       let calAge = thisYear - userBirthYear;
       
-      if (isNaN(calAge) || !userBirthYear) {
+      if (isNaN(calAge) || !userBirthYear || userBirthYear > thisYear) {
          alert('Are you God ??, Please fill out your birth year again');
          continue;
         } else {
